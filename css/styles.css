@@ -568,8 +568,8 @@ img {
     margin-right: 30px;
 }
 
-.go-customer:hover,
-.go-customer:focus {
+.icon-customer:hover,
+.icon-customer:focus {
     fill: var(--accent);
 }
 
@@ -581,12 +581,70 @@ img {
     margin-right: 0;
 }
 
-.customer-li
-
 .customer-li:hover,
 .customer-li:focus {
-    fill: var(--accent;
+    fill: var(--accent);
     border: 1px solid var(--accent);
 }
 
-    
+.footer-social {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.address-footer {
+    width: 231px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-community {
+    margin-left: 70px;
+}
+
+.footer-social {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;     
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.go-social.footer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.go-social.footer:hover,
+.go-social.footer:focus {
+    background-color: var(--accent);
+}
+
+.icon-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-sociale {
+    width: 20px;
+    height: 20px;
+    fill: var(--white);
+}
