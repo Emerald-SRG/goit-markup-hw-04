@@ -86,14 +86,10 @@ img {
 .header-contacts:hover,
 .header-contacts:focus {
     color: var(--accent);
-}
-
-.icon-sms:hover,
-.icon-sms:focus,
-.icon-tel:hover,
-.icon-tel:focus {
     fill: var(--accent);
 }
+
+
 
 
 .header-contacts {
@@ -255,7 +251,7 @@ img {
     border-radius: 4px;
     color: var(--white);
     background-color: var(--accent);
-    box-shadow: -7px 9px 14px 5px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project-name {
     font-style: normal;
@@ -312,7 +308,7 @@ img {
 }
 
 .project-card-li:hover {
-    box-shadow: -7px 9px 14px 5px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .image-project {
@@ -441,7 +437,7 @@ img {
 
     width: 270px;
     background: var(--white);
-    box-shadow: 2px 15px 10px -5px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 .team-li:last-child {
@@ -500,8 +496,8 @@ img {
 .team-icons {
     justify-content: center;
     display: flex;
-    margin-bottom: 30px;
     height: 44px;
+    margin-top: 16px;
 }
 
 .social-item {
@@ -510,8 +506,8 @@ img {
     margin-right: 10px;
 }
 
-.sicon-team:nth-child(4) {
-    margin-right: 0;
+.icon-team:not(:last-child) {
+    margin-right: 10px;
 }
 
 .go-social {
@@ -571,25 +567,24 @@ img {
     background: var(--white);
     border-radius: 4px;
     margin-right: 30px;
-}
-
-.icon-customer:hover,
-.icon-customer:focus {
-    fill: var(--accent);
+    display: flex;
 }
 
 .icon-customer {
     fill: var(--color-team-icon);
 }
 
-.customer-li:nth-child(6n) {
-    margin-right: 0;
+.customer-li:hover {
+    border: 1px solid var(--accent);
 }
 
-.customer-li:hover,
-.customer-li:focus {
+
+.icon-customer:hover {
     fill: var(--accent);
-    border: 1px solid var(--accent);
+}
+
+.customer-li:nth-child(6n) {
+    margin-right: 0;
 }
 
 .footer-social {
@@ -653,3 +648,4 @@ img {
     height: 20px;
     fill: var(--white);
 }
+ 
